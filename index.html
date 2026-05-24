@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="Stylesheet" href="./CSS/Style.css">
+
+    <title>super mario</title>
+</head>
+
+<body>
+
+    <div class="game-board">
+        <span class="score">score:</span>
+        <img src="gif/nuvens.png" class="clouds">
+        <img src="gif/sonc.gif" class="sonic">
+        <img src="gif/pipe (1).png" class="pipe">
+
+        <button class="start" onclick="startGame()">Iniciar</button>
+        <audio src="Trilha_sonora/01- Sonic-1-Music-Green-Hill-Zone.mp3" loop autoplay></audio>
+    </div>
+
+    <div class="game-over">
+        <h1>Game over :(</h1><button onclick="restartGame()">Reiniciar</button>
+    </div>
+
+
+
+</body>
+<script src="js/script.js"></script>
+
+</html>

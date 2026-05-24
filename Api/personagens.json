@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nome": "Sonic",
+        "gif": "gif/sonic.gif"
+    },
+
+    {
+        "id": 2,
+        "nome": "Knuckles",
+        "gif": "gif/knuckles-the-echidna-sega (1).gif"
+    },
+
+    
+    {
+        "id": 3,
+        "nome": "Goku",
+        "gif": "gif/goku.gif"
+    }
+]

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url('IMG-20250913-WA0004.jpg');
+    background-size: 100%;
+    background-position: center;
+}
+
+.container{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    overflow: auto;
+    background: linear-gradient(#1fd47a, #2798c5fd, rgb(119, 60, 255))
+}
+    
+
+.quadrado{
+    cursor: pointer;
+    background-color: rgb(165, 228, 146);
+    margin: 10px;
+    padding:5px;
+    border-radius: 15px;
+}
+.quadrado img {
+    width: 110px;
+}
+
+.play{
+    position: sticky;
+    bottom: 0;
+    align-self: flex-end;
+}
+.play button{
+    font-size: 20px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container button{
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+}
